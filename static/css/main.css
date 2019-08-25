@@ -1,0 +1,18 @@
+.tab {
+    width: 33%;
+    height: 100px;
+}
+#tab-1, #tab-2, #tab-3 {
+    background-image: url('../image/samsung-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.indicator {
+    display: inline-flex;
+    margin: 5px;
+}
+.indicators {
+    margin-left: 60%;
+}
+
+
