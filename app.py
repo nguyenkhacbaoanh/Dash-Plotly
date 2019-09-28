@@ -31,4 +31,5 @@ def display(btn_1, btn_2, btn_3):
         return html.Div([html.P("Hello")])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', host=8050, debug=True)
+
